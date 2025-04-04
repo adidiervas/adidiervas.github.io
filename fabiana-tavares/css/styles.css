@@ -18,7 +18,7 @@ header {
 	background: rgba(255, 255, 255, 0.9);
   opacity: .8;
 	padding: 10px 24px;
-	border-radius: 25px;
+	border-radius: 50px;
   color: #5E2600;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 	font-size: 14px;
@@ -182,7 +182,7 @@ section:not(:last-of-type) {
 }
 
 .contact-card .icon {
-  width: 18px;
+  width: 32px;
   margin-right: 10px;
 }
 
