@@ -1,0 +1,185 @@
+body {
+  font-family: "Montserrat", "Bodoni Moda", sans-serif;
+  background-color: #FFF4ED;
+}
+
+header {
+  background: url('../assets/images/background-hero.png') no-repeat center center;
+  background-size: cover;
+  padding: 50px 20px 0 50px;
+}
+
+.fabiana-info-box {
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 1.4rem;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background: rgba(255, 255, 255, 0.9);
+  opacity: .8;
+	padding: 10px 20px;
+	border-radius: 25px;
+  color: #5E2600;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	font-size: 14px;
+	text-align: center;
+}
+
+.col-md-5.col-sm-12.col-12.d-flex.text-center {
+  position: relative; 
+}
+
+.fabiana-info-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .fabiana-info-box {
+    left: 0;
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .fabiana-info-box {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+  }
+}
+
+.info-txt {
+  font-family: "Montserrat";
+  font-size: 24px;
+  color: #5E2600;
+}
+
+.body-text {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #5E2600;
+  opacity: 0.8;
+}
+
+section:not(:last-of-type) {
+  border-radius: 25px;
+}
+
+.sobre-section {
+  background: url(../assets/images/Light-orange-grain.jpg);
+}
+
+.abordagem-box {
+  border: 2px solid #E69B7E;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  margin: 20px;
+}
+
+.btn-ad-primary {
+  background-color: #5e2600;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 16px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  letter-spacing: 1.2px;
+  padding: 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-ad-primary:hover {
+  border: 2px solid #FF954D;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.audience-section {
+  padding: 40px 0;
+}
+
+.section-title {
+  font-family: "Bodoni Moda";
+  font-size: 30px;
+  color: #5E2600;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.atendimento {
+  background: url(../assets/images/gradient-grain.jpg);
+  border-radius: 10px;
+}
+
+.atendimento-item {
+  margin-bottom: 20px;
+}
+
+.atendimento-item h4 {
+  font-family: "Bodoni Moda";
+  line-height: 1.2rem;
+  font-weight: 600;
+}
+
+.atendimento-item h4 i {
+  margin-right: 10px;
+  color: #d46b58;
+}
+
+.contact-info-section {
+  background: url('../assets/images/gradient-grain.jpg') no-repeat bottom;
+  background-size: 100% 50%;
+}
+
+.contact-quote {
+  font-family: "Bodoni Moda";
+  font-size: 20px;
+  font-style: italic;
+  color: #5E2600;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.contact-card {
+  background: #fff;
+  opacity: 85%;
+  padding: 25px;
+  border-radius: 12px;
+  color: #5E2600;
+  border: 1px solid #FF954D;
+}
+
+.contact-card p {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.contact-card .icon {
+  width: 18px;
+  margin-right: 10px;
+}
+
+footer {
+  background: url('../assets/images/gradient-grain.jpg') no-repeat bottom;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #5E2600;
+  margin-bottom: 0 !important;
+}
