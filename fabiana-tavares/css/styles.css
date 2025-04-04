@@ -37,6 +37,10 @@ header {
     left: 0;
     bottom: 10px;
   }
+
+  .contato-section .img-div {
+    margin-right: 56px !important;
+  }
 }
 
 @media (max-width: 991px) {
@@ -52,6 +56,7 @@ header {
   font-size: 24px;
   color: #5E2600;
   margin-bottom: 24px;
+  line-height: 2.2rem;
 }
 
 .body-text {
@@ -76,7 +81,11 @@ section:not(:last-of-type) {
   padding: 20px;
   border-radius: 10px;
   background-color: transparent;
-  margin: 20px;
+  margin: 20px 10px;
+}
+
+.abordagem-box p {
+  margin-bottom: 0;
 }
 
 .btn-ad-primary {
