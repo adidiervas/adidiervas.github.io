@@ -179,6 +179,7 @@ section:not(:last-of-type) {
 
 footer {
   background: url('../assets/images/gradient-grain.jpg') no-repeat bottom;
+  background-size: 100% 100%;
 }
 
 .footer-text {
